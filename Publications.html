@@ -50,9 +50,12 @@ Latest commit 2a9f123 22 minutes ago
 <div id="container">
 
 <header>
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE WEB SITE"></a></h1>
+<h1 id="logo"><a href="index.html"><img src="images/logo2.png" alt="Yuki Ogawa"></a></h1>
+<!--スライドショー-->
 <aside id="mainimg">
-<img src="images/2.jpg" alt="">
+<img src="images/Image1.jpg" alt="" class="slide0">
+<img src="images/Image1.jpg" alt="" class="slide1">
+<img src="images/Image2.jpg" alt="" class="slide2">
 </aside>
 </header>
 
@@ -60,129 +63,42 @@ Latest commit 2a9f123 22 minutes ago
 
 <div id="main">
 
-<section>
+<section id="new">
+<h2>Recent publications</h2>
+<dt>2021/XX/XX</dt>
+<dd>paper #1</dd>
+<dt>2021/XX/XX</dt>
+<dd>Paper #2</dd>
+<dt>2021/XX/XX</dt>
+<dd>paper #3</dd>
+<dt>2021/XX/XX</dt>
+<dd>Paper #4</dd>
+<dt>2021/XX/XX</dt>
+<dd>paper #5</dd>
+<dt>2021/XX/XX</dt>
+<dd>Paper #6</dd>
+</dl>
+<p class="r">&raquo;&nbsp;<a href="Publications.html">Other papers</a></p>
+</section>
 
-<h2>Publications</h2>
+<section id="new">
+<h2>Recent protocols</h2>
+<dt>2021/XX/XX</dt>
+<dd>Protocol #1</dd>
+<dt>2021/XX/XX</dt>
+<dd>Protocol #2</dd>
+<dt>2021/XX/XX</dt>
+<dd>Protocol #3</dd>
+<dt>2021/XX/XX</dt>
+<dd>Protocol #4</dd>
+<dt>2021/XX/XX</dt>
+<dd>Protocol #5</dd>
+<dt>2021/XX/XX</dt>
+<dd>Protocol #6</dd>
+</dl>
+<p class="r">&raquo;&nbsp;<a href="Protocols.html">Other protocols</a></p>
+</section>
 
-<h3>植物</h3>
-
-<div class="photo-block">
-
-<div class="list">
-<a href="images_photo/1.jpg" data-lightbox="group1" data-title="黄色のバラの花">
-<figure><img src="images_photo/1_mini.jpg" alt="黄色のバラの花"></figure>
-</a>
-</div>
-
-<div class="list">
-<a href="images_photo/2.jpg" data-lightbox="group1" data-title="藤の花">
-<figure><img src="images_photo/2_mini.jpg" alt="藤の花"></figure>
-</a>
-</div>
-
-<div class="list">
-<a href="images_photo/3.jpg" data-lightbox="group1" data-title="蓮の葉">
-<figure><img src="images_photo/3_mini.jpg" alt="蓮の葉"></figure>
-</a>
-</div>
-
-<div class="list">
-<a href="images_photo/4.jpg" data-lightbox="group1" data-title="八重桜">
-<figure><img src="images_photo/4_mini.jpg" alt="八重桜"></figure>
-</a>
-</div>
-
-<div class="list">
-<a href="images_photo/5.jpg" data-lightbox="group1" data-title="白いバラ">
-<figure><img src="images_photo/5_mini.jpg" alt="白いバラ"></figure>
-</a>
-</div>
-
-<div class="list">
-<a href="images_photo/6.jpg" data-lightbox="group1" data-title="蓮の花">
-<figure><img src="images_photo/6_mini.jpg" alt="蓮の花"></figure>
-</a>
-</div>
-
-<div class="list">
-<a href="images_photo/7.jpg" data-lightbox="group1" data-title="バラの花">
-<figure><img src="images_photo/7_mini.jpg" alt="バラの花"></figure>
-</a>
-</div>
-
-<div class="list">
-<a href="images_photo/8.jpg" data-lightbox="group1" data-title="四つ葉のクローバー">
-<figure><img src="images_photo/8_mini.jpg" alt="四つ葉のクローバー"></figure>
-</a>
-</div>
-
-</div>
-<!--/.photo-block-->
-
-<h3>風景</h3>
-<p>&lt;div class=&quot;list&quot;&gt;を&lt;div class=&quot;list <span class="color1">circle</span>&quot;&gt;にすると以下のように円形になります。</p>
-
-<div class="photo-block">
-
-<div class="list circle">
-<a href="images_photo/10.jpg" data-lightbox="group2" data-title="空">
-<figure><img src="images_photo/10_mini.jpg" alt="空"></figure>
-</a>
-</div>
-
-<div class="list circle">
-<a href="images_photo/11.jpg" data-lightbox="group2" data-title="もみじ">
-<figure><img src="images_photo/11_mini.jpg" alt="もみじ"></figure>
-</a>
-</div>
-
-<div class="list circle">
-<a href="images_photo/12.jpg" data-lightbox="group2" data-title="海岸">
-<figure><img src="images_photo/12_mini.jpg" alt="海岸"></figure>
-</a>
-</div>
-
-<div class="list circle">
-<a href="images_photo/13.jpg" data-lightbox="group2" data-title="田舎道と青空">
-<figure><img src="images_photo/13_mini.jpg" alt="田舎道と青空"></figure>
-</a>
-</div>
-
-</div>
-<!--/.photo-block-->
-
-<h3>lightboxの使い方</h3>
-<p>当テンプレートでは、<a href="https://cdnjs.com/libraries/lightbox2" target="_blank">lightbox2</a>というjavascriptライブラリを使用しています。<br>
-※ポップアップウィンドウ以降の動作はlightboxの仕様です。弊社ではサポートしておりませんので予めご了承下さい。</p>
-<p class="clear">サムネイル用の写真サイズはある程度大きければ適当で構いませんが、必ず「正方形」で準備して下さい。1pxでも縦横がずれると段落ちする場合があります。<br>
-ポップアップ用の大きな画像は自由サイズでOKです。</p>
-<p><strong class="color1">■画像を増やしたい場合</strong><br>
-基本的にはご利用のテンプレートのhtml側のパーツをコピペして増やしてみて下さい。<br>
-以下の例のように大画像はaタグ内で読み込み、小画像はimgタグで普通に読み込まれています。</p>
-<p>&lt;a href=&quot;images_photo/3.jpg&quot; data-lightbox=&quot;group1&quot; data-title=&quot;タイトル&quot;&gt;<br>
-&lt;figure&gt;&lt;img src=&quot;images_photo/3s.jpg&quot; alt=&quot;&quot;&gt;&lt;/figure&gt;<br>
-&lt;/a&gt;</p>
-<p><strong class="color1">■注意</strong><br>
-拡張子が大文字だったり小文字だったり（「jpg」「JPG」）、異なっていたり（「jpg」「jpeg」）するとうまく動作しない場合があるので、実際の画像ファイル名とhtml側の表記を揃えておいて下さい。<br>
-異なるままにしておいた場合、あなたの環境で正常に見えていても、他の人の環境で画像が表示されないなど問題が出る可能性があります。</p>
-<p><strong class="color1">■タグの説明</strong><br>
-<span class="color1">data-lightbox="group1"</span>は、ポップアップで表示した場合に次の画像へリンクでつないていくかの設定です。「group1」部分は好きに変更して頂いて構いませんが、ここを同じ名前で揃えておけば、画像の右半分にカーソルをのせた時に次の画像へのリンク用のアイコンが出ます。<br>
-<span class="color1">data-title="タイトル"</span>は、lightboxで暗転表示された際に写真下に表示されるテキストです。<br>
-よく分からない場合は実際に設定して動作を確認してみて下さい。</p>
-<p><strong class="color1">■別のページでlightboxを使う場合</strong><br>
-htmlの下の方に、<br>
-<span class="look">&lt;!--lightbox用jsファイルの読み込み--&gt;<br>
-&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js&quot;&gt;&lt;/script&gt;</span><br>
-のタグを追加して下さい。</p>
-<p><strong class="color1">■lightbox未搭載のテンプレートでlightboxを使いたい場合</strong><br>
-htmlの下の方に、<br>
-<span class="look">&lt;!--lightbox用jsファイルの読み込み--&gt;<br>
-&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js&quot;&gt;&lt;/script&gt;</span><br>
-のタグを追加。<br>
-続いてcssフォルダのstyle.css冒頭に、<br>
-<span class="look">@import url(https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.css);</span><br>
-のタグを追加。これで準備は完了です。<br>
-あとは上に書いたようなlightbox専用のタグを使って作り込んでみて下さい。</p>
 
 </section>
 
@@ -207,7 +123,6 @@ htmlの下の方に、<br>
 <a href="#"><img src="images/banner1_sh.jpg" alt="採用情報" class="sh"></a></p>
 <p>上のバナー画像は、801px以上の端末と800px以下とで画像２種類が切り替わります。<br>
 <a href="about.html#banner">詳しい説明はこちら。</a></p>
-
 </div>
 <!--/#sub-->
 
