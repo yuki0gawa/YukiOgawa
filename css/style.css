@@ -138,7 +138,13 @@ header #logo {
 .list.circle figure img {
 	border-radius: 50%;
 }
-
+.mgl-10 {
+    margin-left: 10px;
+}
+.author {
+    margin-left: 10px;
+		color: #000000
+}
 /*subブロック
 ---------------------------------------------------------------------------*/
 #sub {
@@ -390,7 +396,7 @@ p.check a {color: #fff;}
 #menubar_hdr {
 	display: block;position: absolute;z-index: 3;
 	top: 5px;	/*上からの配置場所*/
-	right: 1%;	/*右からの配置場所*/
+	left: 1%;	/*右からの配置場所*/
 }
 /*アイコン共通設定*/
 #menubar_hdr.close,
@@ -402,11 +408,11 @@ p.check a {color: #fff;}
 }
 /*三本バーアイコン*/
 #menubar_hdr.close {
-	background: #7e7258 url(../images/icon_menu.png) no-repeat center top/50px;	/*背景色、背景画像の読み込み、画像の上半分（３本マーク）を表示。幅は50px。*/
+	background: #000000 url(../images/icon_menu.png) no-repeat center top/50px;	/*背景色、背景画像の読み込み、画像の上半分（３本マーク）を表示。幅は50px。*/
 }
 /*閉じるアイコン*/
 #menubar_hdr.open {
-	background: #7e7258 url(../images/icon_menu.png) no-repeat center bottom/50px;	/*背景色背景画像の読み込み、画像の下半分（×マーク）を表示。幅は50px。*/
+	background: #000000 url(../images/icon_menu.png) no-repeat center bottom/50px;	/*背景色背景画像の読み込み、画像の下半分（×マーク）を表示。幅は50px。*/
 }
 
 /*main,subブロック
