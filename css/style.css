@@ -22,11 +22,13 @@ body {
 	background: #fff url(../images/bg1.jpg);	/*背景色、背景画像の読み込み*/
 	-webkit-text-size-adjust: none;
 }
-h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form,input,textarea {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,form,figure,form,input,textarea {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
+dt,dd {margin: 0px;padding: 0px;font-size: 85%;font-weight: normal;}
 ul {list-style-type: none;}
 img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
 table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
 iframe {width: 100%;}
+
 
 /*リンク（全般）設定
 ---------------------------------------------------------------------------*/
